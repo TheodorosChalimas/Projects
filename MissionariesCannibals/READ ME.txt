@@ -1,0 +1,5 @@
+A `State` class saves the current state of the problem, that is, how many missionaries and cannibals are in each side of the river and where is the boat (left or right).
+
+The `generateSuccessors` method checks the actions (e.g. cross a two missionaries from left to right) that can be applied to a particular state and returns the valid successor states.
+
+The initial state of the problem is passed as input to the bread first search algorithm (class `BreadthFirstSearch`) that returns the solution to the problem.
